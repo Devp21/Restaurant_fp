@@ -1,0 +1,17 @@
+@media (max-width:575px){
+    .home .d-flex a{
+        width: 100%;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px){
+    .home .d-flex a{
+        width: 30%;
+    }
+}
+
+@media (max-width:991px){
+    .home .d-flex .card p{
+        font-size: 24px;
+    }
+}

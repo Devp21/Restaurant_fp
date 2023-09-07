@@ -1,0 +1,111 @@
+/* heading */
+.heading h1{
+    font-weight: bolder;
+}
+
+
+.heading{
+    background-color: orange;
+}
+
+/* home page css */
+.home .d-flex .card{
+    position: relative;
+    padding: 20px;
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+}
+.home .d-flex .card:hover{
+    transition: 0.5s;
+    transform: scale(1.05, 1.05);
+}
+.home .d-flex .card img{
+    border-radius: 20px;
+    height: 280px;
+}
+.home .d-flex a{
+    width: 25%;
+}
+.home .d-flex .card p{
+    position: absolute;
+    color: white;
+    text-shadow: 1px 2px 5px black;
+    bottom: 10px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* menu pages */
+.menu .leftmenu{
+    border-right: 2px solid grey;
+}
+.menu .pmenu{
+    background-color: orange;
+    border-radius: 50px;
+}
+.menu .nav {
+    border: none;
+}
+.menu nav .nav-item{
+    text-align: center;
+    margin-bottom: 10px;
+    border: none;
+    color: black;
+    position: relative;
+}
+.menu nav .nav-item:after{
+    background-color: transparent;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 3px;
+}
+.menu nav .nav-item.active{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.menu nav .nav-item:hover{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.menu .product{
+    text-align: center;
+}
+.menu .product p{
+    text-align: center;
+    margin-top: 10px;
+}
+.menu .product img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* .menu .product img:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+} */
+.menu .product a{
+    color: black;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+}
+.menu .btn-success {
+    color: black !important;
+    background-color: orange !important;
+    border-color: orange !important;
+}
+.menu .product form div{
+    padding: 10px;
+    margin: 5px;
+}
